@@ -2,8 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: white;
+    font-family: ProductSans;
 }
-
+@font-face {
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansBold.ttf);
+}
 body{
     background-color: rgb(38, 69, 107);
     height: 100vh;
@@ -35,6 +40,11 @@ body{
 }
 #display_button{
     background-color: rgb(38, 69, 107);
+    font-size: 2.50em;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
