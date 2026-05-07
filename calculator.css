@@ -62,3 +62,7 @@ body{
 .symbol_button{
     background-color: rgb(6, 146, 99);
 }
+
+@media(max-width:320px) and (max-height:){
+
+}
